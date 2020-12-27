@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/">
+    <meta charset="utf-8"/>
+    <link href="%PUBLIC_URL%/favicon.ico" rel="icon"/>
+    <meta content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" name="viewport"/>
+    <meta content="#0A8FDC" name="theme-color"/>
+    <link href="%PUBLIC_URL%/logo192.png" rel="apple-touch-icon"/>
+    <meta content="Survey-App" name="description"/>
+    <meta property="og:title" content="Survey-App"/>
+    <meta property="og:description" content="Survey-App is purely based on Material UI components and follows Google’s Material Design guidelines"/>
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png"/>
+    <meta property="og:site_name" content="Survey-App Material Design"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry,drawing&key=AIzaSyBtgCpqXBu7Mdl2bzhhHnutAroyEteQo9s">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+          rel="stylesheet">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link href="%PUBLIC_URL%/manifest.json" rel="manifest"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Survey-App</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .Aathisoft-loader-bg {
+            flex: 1;
+            display: flex;
+            position: relative;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+
+        .Aathisoft-loader {
+            position: relative;
+            margin: 0 auto;
+            width: 40px;
+        }
+
+        .circular {
+            animation: rotate 2s linear infinite;
+            height: 40px;
+            transform-origin: center center;
+            width: 40px;
+            margin: auto;
+        }
+
+        .path {
+            stroke-dasharray: 5, 200;
+            stroke-dashoffset: 0;
+            animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+            stroke-linecap: round;
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35px;
+            }
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124px;
+            }
+        }
+
+        @keyframes color {
+            100%, 0% {
+                stroke: #0A8FDC;
+            }
+        }
+    </style>
+
+
+
+    <!-- <script defer src="/__/firebase/8.1.2/firebase-app.js"></script>
+    <script defer src="/__/firebase/8.1.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.1.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/8.1.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.1.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/init.js"></script> -->
+
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message" style="display: none;">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load" style="display: none;">Firebase SDK Loading&hellip;</p>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="Aathisoft-loader-bg">
+            <div class="Aathisoft-loader">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" fill="none" r="20" stroke-miterlimit="10" stroke-width="3"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      /*
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+      */
+    </script>
+  </body>
+</html>

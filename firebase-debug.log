@@ -1,0 +1,262 @@
+[debug] [2020-12-06T19:54:12.881Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:54:12.892Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-12-06T19:54:12.892Z] CLI Version:   8.10.0
+[debug] [2020-12-06T19:54:12.892Z] Platform:      win32
+[debug] [2020-12-06T19:54:12.892Z] Node Version:  v14.15.0
+[debug] [2020-12-06T19:54:12.956Z] Time:          Mon Dec 07 2020 01:24:12 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T19:54:12.956Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:54:12.956Z] 
+[error] 
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
+[debug] [2020-12-06T19:57:40.609Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:57:40.611Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-12-06T19:57:40.611Z] CLI Version:   8.10.0
+[debug] [2020-12-06T19:57:40.611Z] Platform:      win32
+[debug] [2020-12-06T19:57:40.611Z] Node Version:  v14.15.0
+[debug] [2020-12-06T19:57:40.612Z] Time:          Mon Dec 07 2020 01:27:40 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T19:57:40.612Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:57:40.612Z] 
+[info] Already logged in as sentthill@gmail.com
+[debug] [2020-12-06T19:57:49.447Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:57:49.448Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-06T19:57:49.448Z] CLI Version:   8.10.0
+[debug] [2020-12-06T19:57:49.449Z] Platform:      win32
+[debug] [2020-12-06T19:57:49.449Z] Node Version:  v14.15.0
+[debug] [2020-12-06T19:57:49.449Z] Time:          Mon Dec 07 2020 01:27:49 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T19:57:49.450Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:57:49.450Z] 
+[debug] [2020-12-06T19:57:49.457Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-06T19:57:49.458Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\SEN\work\aathisoft\surveyapp\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-06T19:57:56.927Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-12-06T19:57:58.130Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 19:57:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project survey-app-admin (survey-app-admin) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-06T19:58:19.020Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-12-06T19:58:19.471Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sun, 06 Dec 2020 19:11:39 GMT","expires":"Sun, 06 Dec 2020 20:01:39 GMT","last-modified":"Fri, 04 Dec 2020 02:12:08 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2799","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-12-06T19:58:54.063Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:58:54.065Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-06T19:58:54.065Z] CLI Version:   8.10.0
+[debug] [2020-12-06T19:58:54.065Z] Platform:      win32
+[debug] [2020-12-06T19:58:54.065Z] Node Version:  v14.15.0
+[debug] [2020-12-06T19:58:54.066Z] Time:          Mon Dec 07 2020 01:28:54 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T19:58:54.066Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T19:58:54.067Z] 
+[debug] [2020-12-06T19:58:54.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-06T19:58:54.077Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\SEN\work\aathisoft\surveyapp\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-06T19:59:02.592Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-12-06T19:59:03.582Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 19:59:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project survey-app-admin (survey-app-admin) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-06T19:59:15.660Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-12-06T19:59:16.269Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sun, 06 Dec 2020 19:11:39 GMT","expires":"Sun, 06 Dec 2020 20:01:39 GMT","last-modified":"Fri, 04 Dec 2020 02:12:08 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2855","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2020-12-06T20:09:41.085Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T20:09:41.087Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-12-06T20:09:41.087Z] CLI Version:   8.10.0
+[debug] [2020-12-06T20:09:41.087Z] Platform:      win32
+[debug] [2020-12-06T20:09:41.087Z] Node Version:  v14.15.0
+[debug] [2020-12-06T20:09:41.088Z] Time:          Mon Dec 07 2020 01:39:41 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T20:09:41.088Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T20:09:41.088Z] 
+[debug] [2020-12-06T20:09:41.098Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-06T20:09:41.100Z] > authorizing via signed-in user
+[debug] [2020-12-06T20:09:41.100Z] [iam] checking project survey-app-admin for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-12-06T20:09:41.103Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/survey-app-admin:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-12-06T20:09:42.644Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:09:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1144","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:09:42.647Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/survey-app-admin  
+ 
+[debug] [2020-12-06T20:09:43.275Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:09:41 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'survey-app-admin'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-12-06T20:09:43.290Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-12-06T20:09:45.874Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:09:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[survey-app-admin]: beginning deploy... 
+[info] i  hosting[survey-app-admin]: found 688 files in build 
+[debug] [2020-12-06T20:09:45.987Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2020-12-06T20:09:47.719Z] [hosting] hash cache [YnVpbGQ] stored for 688 files
+[debug] [2020-12-06T20:09:47.719Z] [hosting][hash queue][FINAL] {"max":1425,"min":15,"avg":60.780523255813975,"active":0,"complete":688,"success":688,"errored":0,"retried":0,"total":688,"elapsed":1732}
+[debug] [2020-12-06T20:09:47.720Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions/11de2c855f8751ad:populateFiles  
+ <request body omitted>
+[debug] [2020-12-06T20:09:51.067Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:09:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:09:51.113Z] [hosting][populate queue][FINAL] {"max":3372,"min":3372,"avg":3372,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":3405}
+[debug] [2020-12-06T20:09:51.114Z] [hosting] uploads queued: 416
+[debug] [2020-12-06T20:09:53.339Z] [hosting][upload] {"max":0,"min":9999999999,"avg":0,"active":200,"complete":0,"success":0,"errored":0,"retried":0,"total":416,"elapsed":2268}
+[debug] [2020-12-06T20:09:55.033Z] [hosting][upload] {"max":3954,"min":2265,"avg":3066.289999999999,"active":200,"complete":100,"success":100,"errored":0,"retried":0,"total":416,"elapsed":3962}
+[debug] [2020-12-06T20:09:57.665Z] [hosting][upload] {"max":6557,"min":2265,"avg":3472.204999999999,"active":200,"complete":200,"success":200,"errored":0,"retried":0,"total":416,"elapsed":6594}
+[debug] [2020-12-06T20:10:07.757Z] [uploadQueue] Retrying task 18a7852c6c0131238461cb4916b740a28c6851c32f3018b8c5fc7e5c08950df8
+[debug] [2020-12-06T20:10:15.970Z] [hosting][upload queue][FINAL] {"max":22186,"min":2093,"avg":4894.411057692304,"active":0,"complete":416,"success":416,"errored":0,"retried":1,"total":416,"elapsed":24899}
+[info] +  hosting[survey-app-admin]: file upload complete 
+[debug] [2020-12-06T20:10:15.976Z] [hosting] deploy completed after 30098ms
+[debug] [2020-12-06T20:10:16.222Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "survey-app-admin"
+    },
+    "site": "survey-app-admin",
+    "version": "sites/survey-app-admin/versions/11de2c855f8751ad"
+  }
+]
+[info] i  hosting[survey-app-admin]: finalizing version... 
+[debug] [2020-12-06T20:10:16.225Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions/11de2c855f8751ad?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-12-06T20:10:18.504Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:10:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:10:18.506Z] [hosting] finalized version for survey-app-admin: {"name":"sites/survey-app-admin/versions/11de2c855f8751ad","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-12-06T20:09:43.811162Z","createUser":{"email":"sentthill@gmail.com"},"finalizeTime":"2020-12-06T20:10:16.796487Z","finalizeUser":{"email":"sentthill@gmail.com"}}
+[info] +  hosting[survey-app-admin]: version finalized 
+[info] i  hosting[survey-app-admin]: releasing new version... 
+[debug] [2020-12-06T20:10:18.507Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/releases?version_name=sites/survey-app-admin/versions/11de2c855f8751ad  
+ {"message":null}
+[debug] [2020-12-06T20:10:20.715Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:10:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:10:20.718Z] [hosting] release: {"name":"sites/survey-app-admin/releases/1607285418419496","version":{"name":"sites/survey-app-admin/versions/11de2c855f8751ad","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-12-06T20:09:43.811162Z","createUser":{"email":"sentthill@gmail.com"},"finalizeTime":"2020-12-06T20:10:16.796487Z","finalizeUser":{"email":"sentthill@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-12-06T20:10:18.419496790Z","releaseUser":{"email":"sentthill@gmail.com"}}
+[info] +  hosting[survey-app-admin]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/survey-app-admin/overview
+[info] Hosting URL: https://survey-app-admin.web.app
+[debug] [2020-12-06T20:15:15.546Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T20:15:15.548Z] Command:       D:\Program Files\nodejs\node.exe C:\Users\SenthilKumar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-12-06T20:15:15.548Z] CLI Version:   8.10.0
+[debug] [2020-12-06T20:15:15.548Z] Platform:      win32
+[debug] [2020-12-06T20:15:15.548Z] Node Version:  v14.15.0
+[debug] [2020-12-06T20:15:15.549Z] Time:          Mon Dec 07 2020 01:45:15 GMT+0530 (India Standard Time)
+[debug] [2020-12-06T20:15:15.549Z] ----------------------------------------------------------------------
+[debug] [2020-12-06T20:15:15.549Z] 
+[debug] [2020-12-06T20:15:15.555Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-06T20:15:15.556Z] > authorizing via signed-in user
+[debug] [2020-12-06T20:15:15.557Z] [iam] checking project survey-app-admin for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-12-06T20:15:15.560Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/survey-app-admin:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-12-06T20:15:17.160Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1234","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:15:17.168Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/survey-app-admin  
+ 
+[debug] [2020-12-06T20:15:17.688Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'survey-app-admin'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-12-06T20:15:17.693Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-12-06T20:15:20.243Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[survey-app-admin]: beginning deploy... 
+[info] i  hosting[survey-app-admin]: found 688 files in build 
+[debug] [2020-12-06T20:15:22.013Z] [hosting] hash cache [YnVpbGQ] stored for 688 files
+[debug] [2020-12-06T20:15:22.013Z] [hosting][hash queue][FINAL] {"max":1447,"min":0,"avg":50.54191508805408,"active":0,"complete":688,"success":688,"errored":0,"retried":0,"total":688,"elapsed":1623}
+[debug] [2020-12-06T20:15:22.014Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions/8e41886a8f91a582:populateFiles  
+ <request body omitted>
+[debug] [2020-12-06T20:15:25.044Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:15:25.052Z] [hosting][populate queue][FINAL] {"max":3042,"min":3042,"avg":3042,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":3046}
+[debug] [2020-12-06T20:15:25.052Z] [hosting] uploads queued: 4
+[debug] [2020-12-06T20:15:28.455Z] [hosting][upload queue][FINAL] {"max":3407,"min":2091,"avg":2708.75,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":3408}
+[info] +  hosting[survey-app-admin]: file upload complete 
+[debug] [2020-12-06T20:15:28.456Z] [hosting] deploy completed after 8207ms
+[debug] [2020-12-06T20:15:28.728Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "survey-app-admin"
+    },
+    "site": "survey-app-admin",
+    "version": "sites/survey-app-admin/versions/8e41886a8f91a582"
+  }
+]
+[info] i  hosting[survey-app-admin]: finalizing version... 
+[debug] [2020-12-06T20:15:28.729Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/versions/8e41886a8f91a582?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-12-06T20:15:30.802Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:15:30.806Z] [hosting] finalized version for survey-app-admin: {"name":"sites/survey-app-admin/versions/8e41886a8f91a582","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-12-06T20:15:18.171675Z","createUser":{"email":"sentthill@gmail.com"},"finalizeTime":"2020-12-06T20:15:29.166081Z","finalizeUser":{"email":"sentthill@gmail.com"}}
+[info] +  hosting[survey-app-admin]: version finalized 
+[info] i  hosting[survey-app-admin]: releasing new version... 
+[debug] [2020-12-06T20:15:30.808Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/survey-app-admin/releases?version_name=sites/survey-app-admin/versions/8e41886a8f91a582  
+ {"message":null}
+[debug] [2020-12-06T20:15:32.716Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 06 Dec 2020 20:15:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-06T20:15:32.721Z] [hosting] release: {"name":"sites/survey-app-admin/releases/1607285730635997","version":{"name":"sites/survey-app-admin/versions/8e41886a8f91a582","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-12-06T20:15:18.171675Z","createUser":{"email":"sentthill@gmail.com"},"finalizeTime":"2020-12-06T20:15:29.166081Z","finalizeUser":{"email":"sentthill@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-12-06T20:15:30.635997567Z","releaseUser":{"email":"sentthill@gmail.com"}}
+[info] +  hosting[survey-app-admin]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/survey-app-admin/overview
+[info] Hosting URL: https://survey-app-admin.web.app
